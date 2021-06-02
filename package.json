@@ -1,0 +1,14 @@
+{
+  "name": "safecloud",
+  "version": "1.0.0",
+  "description": "Software designed to allow Team Safehouse devs to edit documents and code files",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Oliver Chapman",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^13.0.1"
+  }
+}

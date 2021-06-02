@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    background-image: url("../img/login.jpg");
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#login-card {
+    margin-top: 10%;
+    width: 400px;
+    height: 550px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+#login-form {
+    margin: 10%;
+}
+
+#login-form h1 {
+    margin-bottom: 90px;
+}
+
+#login-form input {
+    font-size: 22px;
+    margin-bottom: 75px;
+}
