@@ -6,6 +6,9 @@ body {
 
 #container {
     width: 100%;
+}
+
+#content {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,10 +27,35 @@ body {
 }
 
 #login-form h1 {
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
 
 #login-form input {
     font-size: 22px;
     margin-bottom: 75px;
+}
+
+#result {
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+
+#footer {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    height: 35px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.submit-btn {
+    background-color: #7bd460;
+    width: 150px;
+    padding: 10px;
+    color: #FFFFFF;
+    border-style: none;
 }

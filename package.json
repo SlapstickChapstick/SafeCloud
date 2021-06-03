@@ -1,7 +1,7 @@
 {
-  "name": "safecloud",
+  "name": "safescript",
   "version": "1.0.0",
-  "description": "Software designed to allow Team Safehouse devs to edit documents and code files",
+  "description": "Software designed to allow Team Safehouse devs to edit dialogue scripts and lore",
   "main": "main.js",
   "scripts": {
     "start": "electron ."

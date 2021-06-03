@@ -1,8 +1,10 @@
-const {app, BrowserWindow} = require('electron')
+const {app, BrowserWindow, Menu} = require('electron')
 const path = require('path')
 const url = require('url')
 
 let win
+
+//Menu.setApplicationMenu(false)
 
 function CreateWindow() {
     win = new BrowserWindow({width: 1440, height: 900, resizable: false})
