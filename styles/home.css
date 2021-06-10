@@ -5,8 +5,17 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+html {
+    height: 100%;
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
+    height: 100%;
+}
+
+#content {
+    min-height: 100%;
 }
 
   /* Create three unequal columns that floats next to each other */
@@ -15,7 +24,7 @@ body {
     float: left;
     text-align: center;
     padding: 10px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 851px;
 }
 
 .left, .middle {
@@ -31,4 +40,9 @@ body {
     content: "";
     display: table;
     clear: both;
+}
+
+.text-editor {
+    width: 100%;
+    color: #FFFFFF;
 }
